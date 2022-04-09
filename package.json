@@ -1,0 +1,24 @@
+{
+  "name": "junior-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i src/style.css -o public/style.css",
+    "watch": "tailwindcss -i src/style.css -o public/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuradCade/junior-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MuradCade/junior-website/issues"
+  },
+  "homepage": "https://github.com/MuradCade/junior-website#readme",
+  "dependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}
